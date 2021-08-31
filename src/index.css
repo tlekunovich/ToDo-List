@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  margin-top: 200px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+
+}
+
+.container h1{
+  font-size: 54px;
+}
+.todo.completed span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+.zones {
+  /* background-color: darkblue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  /* background-color:aliceblue */
+}
+
+.zone-1 {
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 900px;
+  height: 800px;
+}
+.zone-2 {
+  /* background-color: rgb(11, 184, 77); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 900px;
+  height: 800px;
+}
+
+.urgentStatus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Urgent {
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3);
+  border: 1px solid rgb(14, 10, 10);
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-right: 30%;
+  margin-top: 1%;
+}
+
+.NotUrgent {
+  background: linear-gradient(90deg, #b3dbd3, #f4d6db);
+  border: 1px solid rgb(14, 10, 10);
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 1%;
+}
+
+/* .todo {
+  background-color: aqua;
+  width: 00px;
+  margin: 10px;
+  font-size: 32px;
+  border-radius: 10px;
+} */
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(90deg, #b3dbd3, #f4d6db);
+  width: 800px;
+  height: 50px;
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 10px;
+  cursor: grab;
+  margin: 10px;
+  font-size: 21px;
+}
+
+.colored {
+
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3);
+  
+}
+
+
+.checkbox {
+  /* background-color:blueviolet; */
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.date {
+  /* background-color:brown; */
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 220px;
+  font-size: 28px;
+
+
+}
+
+.title {
+  /* background-color:cadetblue; */
+  width: 600px;
+  /* height: 50px; */
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+}
+
+.btnDelete {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+
+.btn {
+  width: 20px;
+  height: 20px;
+  background-color: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  /* background-color:darkblue; */
+}
+
+
+
+
+
+
+
+
+.inputTask {
+  width: 40%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+
+.inputDate {
+  width: 10%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.input-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.hold{
+  border: 1px solid black;
+  
+}
+
+.hide{
+  display: none;
+}
+
+
+/* .hovered{
+border-top: 2px solid cadetblue;  
+
+} */
